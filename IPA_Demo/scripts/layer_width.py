@@ -13,7 +13,7 @@ def query_layer_width(depth):
         layer_width.append(widgets.IntSlider(
             value=2,
             min=1,
-            max=8,
+            max=512,
             step=1,
             description='Width Layer {}:'.format(layer+1),
             disabled=False,
